@@ -8,9 +8,6 @@ docker pull mcr.microsoft.com/mssql/server:2019-latest
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=qwerty123' -p 1433:1433 --name sql_server_container -d mcr.microsoft.com/mssql/server:2019-latest
 ```
 
-1. In DOcker desktop open an external terminal
-2. /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P qwerty123
-
 # LinqPad
 
 1. Add new connection
